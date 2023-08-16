@@ -5,68 +5,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>finals</title>
+
     <link rel="stylesheet" href="css/main.css">
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet" />
 </head>
 
 <body>
-    <main>
-    <section>
-        <header>
-            <div class="container">
-                <div class="wrap">
-                    <img src="images/logo.png" alt="star">
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Contact </a></li>
-                    </ul>
-                </nav>
-                <form>
-                    <input type="text" placeholder="search" name="search">
-                    <button type="submit">submit</button>
-                </form>
+
+
+    <header>
+        <div class="container">
+            <div class="wrap">
+                <img src="images/logo.png" alt="star">
             </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Contact </a></li>
 
-        </header>
-       
-            <section class="main-banner">
-              
-                <article>
-                    <h2>Welcome to Three star media</h2 >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
-                        natus. Quam id repudiandae, adipisci hic recusandae aperiam nam soluta deserunt quas? Vel
-                        tempora
-                        laboriosam amet quae fuga exercitationem minima error.</p>
-                    <a class="btn" href="#">conect with us</a>
-                </article>
-                <img src="images/main-banner.jpg" alt="">
+                </ul>
+                
+                <div class="search">
+                    <form>
+                    <input type="text" placeholder="search" name="search"/>
+                </form>
+                    <button></button>
+                
+                </div>
+            </nav>
 
-            </section>
-            <section class=" about-us">
 
-                <div class=" flex-cover">
+
+        </div>
+    </header>
+
+
+
+    <main>
+        <section class="main-banner">
+
+            <article>
+                <h2>Welcome to Three star media</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+                    natus. Quam id repudiandae, adipisci hic recusandae aperiam nam soluta deserunt quas? Vel
+                    tempora
+                    laboriosam amet quae fuga exercitationem minima error.</p>
+                <a class="btn" href="#">conect with us</a>
+            </article>
+            <img src="images/main-banner.jpg" alt="">
+
+        </section>
+        <section class=" about-us">
+
+            <div class=" flex-cover">
+                <section class="contain">
                     <img src="images/about-us.jpg" alt="">
+                </section>
+                <div>
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias pariatur illum velit
+                        repellendus
+                        exercitationem
+                        molestiae illo sapiente aliquam, vero maxime. Repudiandae beatae quos corporis nostrum
+                        facere
+                        dignissimos aut, laborum libero.</p>
+                </div>
+            </div>
+        </section>
 
-                    <div>
-                        <h2>About Us</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias pariatur illum velit
-                            repellendus
-                            exercitationem
-                            molestiae illo sapiente aliquam, vero maxime. Repudiandae beatae quos corporis nostrum
-                            facere
-                            dignissimos aut, laborum libero.</p>
-                    </div>
-                    </div>
-            </section>
 
 
-
-            <section class="services">
-
+        <section class="services">
+            <div class="wrapper">
                 <h2>Our services</h2>
                 <div class="grid">
                     <article>
@@ -144,29 +159,34 @@
 
 
 
+            </div>
 
-            </section>
-            <section class="vision">
-                <div class="boat">
+        </section>
+        <section class="vision">
+            <div class="boat">
+                <article>
                     <h3>our vision</h3>
 
 
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias pariatur illum velit repellendus
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias pariatur illum velit
+                        repellendus
                         exercitationem
-                        molestiae illo sapiente aliquam, vero maxime. Repudiandae beatae quos corporis nostrum facere
+                        molestiae illo sapiente aliquam, vero maxime. Repudiandae beatae quos corporis nostrum
+                        facere
                         dignissimos aut, laborum libero.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias pariatur illum velit repellendus
-                        exercitationem
-                        molestiae illo sapiente aliquam, vero maxime. Repudiandae beatae quos corporis nostrum facere
-                        dignissimos aut, laborum libero.</p>
-                    <a class="btn" href="#">learn-more</a>
-                </div>
-                <img src="images/vision.jpg" alt="">
 
-            </section>
-            <section class="owner">
+
+                    <a class="btn" href="#">learn-more</a>
+                </article>
+            </div>
+            <img src="images/vision.jpg" alt="">
+
+
+        </section>
+        <section class="owner">
+            <div class="team">
                 <h2> Our team</h2>
-                <div class="team">
+                <div class="worker">
                     <article>
                         <img src="images/john.jpg" alt="">
                         <div>
@@ -196,65 +216,86 @@
                         </div>
                     </article>
                 </div>
-            </section>
-            <div class="contact">
-                <h2>contact to learn more</h2>
-                <h3>send us meassage</h3>
-                <form action="html" method="POST">
-                    <div class="form-element">
 
-                        <label for="name">name</label>
-                        <input id="name" type="text">
-                    </div>
+        </section>
 
-                    <div class="form-element">
-                        <label for="mail">mail</label>
-                        <input type="email" id="mail" name="mail">
-                    </div>
-                    <div class="form-element">
-                        <label for="message">message</label>
-                        <textarea name="text" id="message"></textarea>
-
-                    </div>
-                    <div class="form-element">
-                        <button type="submit">Send</button>
-                    </div>
-
-                </form>
+        <section class="location-grid">
             </div>
+            <article>
+                <div class="contact">
+                    <h2>contact to learn more</h2>
+                    <h3>send us meassage</h3>
+                    <form action="html" method="POST">
+                        <div class="form-element">
 
+                            <label for="name">name</label>
+                            <input id="name" type="text">
+                        </div>
 
-            <h2>Hours of operation</h2>
-            <table>
-                
-                <tr>
-                    <th>Days</th>
-                    <th>Hours</th>
+                        <div class="form-element">
+                            <label for="mail">mail</label>
+                            <input type="email" id="mail" name="mail">
+                        </div>
+                        <div class="form-element">
+                            <label for="message">message</label>
+                            <textarea name="text" id="message"></textarea>
 
-                </tr>
-                <tr>
-                    <td>monday-friday</td>
-                    <td>9am-6pm</td>
+                        </div>
+                        <div class="form-element">
+                            <button type="submit">Send</button>
+                        </div>
 
-                </tr>
-                <tr>
-                    <td>saturday-sunday</td>
-                    <td>closed</td>
+                    </form>
 
-                </tr>
-            </table>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44864.61289995592!2d-75.83581905136718!3d45.348039000000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce071f3025ba19%3A0x4e8b1cef296bbd38!2sAlgonquin%20College%20-%20Building%20B!5e0!3m2!1sen!2sng!4v1691439661077!5m2!1sen!2sng"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+            </div>
+            <div>
+                <article>
 
-        
+                    <section class="hours">
+                        <h2>Hours of operation</h2>
+                        <table>
+
+                            <tr>
+                                <th>Days</th>
+                                <th>Hours</th>
+
+                            </tr>
+                            <tr>
+                                <td>monday-friday</td>
+                                <td>9am-6pm</td>
+
+                            </tr>
+                            <tr>
+                                <td>saturday-sunday</td>
+                                <td>closed</td>
+
+                            </tr>
+                        </table>
+                    </section>
+
+                </article>
+            </div>
+            <div>
+                <article>
+
+                    <h2>Location</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44864.61289995592!2d-75.83581905136718!3d45.348039000000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce071f3025ba19%3A0x4e8b1cef296bbd38!2sAlgonquin%20College%20-%20Building%20B!5e0!3m2!1sen!2sng!4v1691439661077!5m2!1sen!2sng"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </article>
+            </div>
+        </section>
+
         <footer>
+
             <p><small>&copy; three star media, 2020</small></p>
             <p> All images are taken from unslash</p>
         </footer>
-    </section>
-</main>
+
+    </main>
 </body>
 
 </html>
