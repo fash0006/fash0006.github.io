@@ -5,6 +5,15 @@
 
 }
 
+body {
+  font-family: ;
+}
+
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .wrap {
   width: 100%;
   background-color: #c78c06;
@@ -49,24 +58,29 @@ nav a {
 
 nav input {
 
-  width: 100%;
+  width: 350px;
+  padding: 5px;
 
   margin: 0 auto;
+  
+
 
 }
 
-.search {
+.icons {
   display: flex;
-
   flex-direction: row;
+  margin: 0 auto;
+  
 }
 
-form button {
+.icons button {
 
   background-color: #222;
   outline: 0;
   border: 1px solid #c78b08;
   color: #c78b08;
+  
 
 
 
@@ -74,10 +88,11 @@ form button {
 
 }
 
-nav form button ::after {
+.icons button::after {
   content: "search";
-  font-family: "Meterial icons";
-  font-size: 4.7rem;
+  font-family: "Material icons";
+   font-size: 1.75rem;
+
 
 }
 
@@ -101,22 +116,15 @@ nav form button ::after {
   position: absolute;
   bottom: 60px;
   height: 250px;
+  padding: 30px;
 
 
 
 }
 
-/* .main-banner a{
-  border: 1px sold black;
-  background-color: gold;
-  padding: 20px;
-  text-decoration: none;
-  position: absolute;
-  
-  
-  } */
+
 button::after {
-  content: "arrow-right";
+  content: "arrow_right";
   font-family: "Material icons";
   vertical-align: middle;
   font-size: 1.6rem;
@@ -141,6 +149,7 @@ nav form button ::after {
 .about-us {
   background-color: #ffe6ac;
   width: 100%;
+  padding: 30px;
 }
 
 .about-us .contain {
@@ -156,6 +165,7 @@ nav form button ::after {
 .about-us h2 {
   font-size: 2.5rem;
   padding: 10px;
+  color: #222;
 }
 
 .about-us p {
@@ -219,21 +229,10 @@ nav form button ::after {
 
 }
 
-.vision a {
-  position: relative;
-  background-color: black;
-  border: 1px solid goldenrod;
-  text-decoration: none;
-  padding: 20px;
-  top: 20px;
-  left: 10px;
-  color: white;
-
-}
-
 .boat,
 h2 {
   padding-left: 10px;
+  color: white;
 }
 
 .boat {
@@ -241,6 +240,11 @@ h2 {
   z-index: 999;
   color: white;
 
+
+}
+
+.boat article {
+  gap: 2rem;
 }
 
 .worker {
@@ -331,7 +335,7 @@ footer {
 }
 
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 760px) {
 
   .container {
     display: flex;
@@ -365,8 +369,15 @@ footer {
   .wrap {
     background-color: black;
     padding: 10px;
+    width: 70%;
 
 
+  }
+
+  .icons  input{
+  width: 350px;
+  padding: 5px;
+  
   }
 
   .main-banner article {
