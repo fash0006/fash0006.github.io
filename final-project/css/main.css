@@ -50,6 +50,7 @@ nav input {
 }
 .search{
   display: flex;
+  
   flex-direction: row;
 }
 form button{  
